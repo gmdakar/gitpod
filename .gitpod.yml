@@ -13,7 +13,7 @@ tasks:
     command: |
       .ddev/gitpod-setup-ddev.sh
       ddev composer install
-      gp await-port 8086 && gp preview $(gp url 8086)
+      gp await-port 8037 && gp preview $(gp url 8037)
 
 # VScode xdebug extension
 vscode:
@@ -26,8 +26,8 @@ ports:
     onOpen: ignore
     visibility: private
   # Direct-connect ddev-webserver port that is the main port
-  - port: 8086
-    visibility: private
+  - port: 8037
+    #visibility: public
   # Currently un-notified and unsupported mailhog http port
   - port: 8025
     onOpen: ignore
