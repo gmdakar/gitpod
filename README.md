@@ -20,7 +20,7 @@ Watch a 5 minutes walkthrough video:
 1. Your environment is being prepared, wait about 40 seconds (A splash screen will appear)
 1. VScode (or Theia) IDE will be displayed.
 1. Note that one terminal is running `sudo docker-up`, and another terminal in parallel is running `ddev start`
-1. Find your website's URL `gp url 8080`
+1. Find your website's URL `gp url 8025`
 1. Open your website's URL in a browser, you should see Drupal's installation screen.
 1. Run in terminal `ddev drush si demo_umami -y`
 1. Open your website's URL in a browser, you should see Drupal's Umami demo.
@@ -50,7 +50,7 @@ Watch a 5 minutes walkthrough video:
     1. [.ddev/gitpod-setup-ddev.sh](https://github.com/shaal/ddev-gitpod/blob/main/.ddev/gitpod-setup-ddev.sh) - generate config overrides for ddev to work in the Gitpod environment.
         1. Delete any existing Docker images and containers (due to Gitpod bug, that cause issues when restarting a workspace)
         1. Set certain ports to public, following Gitpod's syntax `[port]-[workspace-url]`
-            1. `8080` - Drupal Website
+            1. `8025` - Drupal Website
             1. `8025` - Mailhog
             1. `8036` - PHPmyadmin
         1. Set `host.docker.internal` with the correct value of gitpod's host ip

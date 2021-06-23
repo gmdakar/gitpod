@@ -23,14 +23,14 @@
  *
  * Aliases are defined in an associative array named $sites. The array is
  * written in the format: '<port>.<domain>.<path>' => 'directory'. As an
- * example, to map https://www.drupal.org:8080/mysite/test to the configuration
+ * example, to map https://www.drupal.org:8025/mysite/test to the configuration
  * directory sites/example.com, the array should be defined as:
  * @code
  * $sites = [
- *   '8080.www.drupal.org.mysite.test' => 'example.com',
+ *   '8025.www.drupal.org.mysite.test' => 'example.com',
  * ];
  * @endcode
- * The URL, https://www.drupal.org:8080/mysite/test/, could be a symbolic link
+ * The URL, https://www.drupal.org:8025/mysite/test/, could be a symbolic link
  * or an Apache Alias directive that points to the Drupal root containing
  * index.php. An alias could also be created for a subdomain. See the
  * @link https://www.drupal.org/documentation/install online Drupal installation guide @endlink
@@ -44,11 +44,11 @@
  * URL: http://localhost/example
  * $sites['localhost.example'] = 'example.com';
  *
- * URL: http://localhost:8080/example
- * $sites['8080.localhost.example'] = 'example.com';
+ * URL: http://localhost:8025/example
+ * $sites['8025.localhost.example'] = 'example.com';
  *
- * URL: https://www.drupal.org:8080/mysite/test/
- * $sites['8080.www.drupal.org.mysite.test'] = 'example.com';
+ * URL: https://www.drupal.org:8025/mysite/test/
+ * $sites['8025.www.drupal.org.mysite.test'] = 'example.com';
  * @endcode
  *
  * @see default.settings.php

@@ -24,20 +24,20 @@
  * 'sites/default' will be used.
  *
  * For example, for a fictitious site installed at
- * https://www.drupal.org:8080/mysite/test/, the 'settings.php' file is searched
+ * https://www.drupal.org:8025/mysite/test/, the 'settings.php' file is searched
  * for in the following directories:
  *
- * - sites/8080.www.drupal.org.mysite.test
+ * - sites/8025.www.drupal.org.mysite.test
  * - sites/www.drupal.org.mysite.test
  * - sites/drupal.org.mysite.test
  * - sites/org.mysite.test
  *
- * - sites/8080.www.drupal.org.mysite
+ * - sites/8025.www.drupal.org.mysite
  * - sites/www.drupal.org.mysite
  * - sites/drupal.org.mysite
  * - sites/org.mysite
  *
- * - sites/8080.www.drupal.org
+ * - sites/8025.www.drupal.org
  * - sites/www.drupal.org
  * - sites/drupal.org
  * - sites/org
@@ -46,8 +46,8 @@
  *
  * Note that if you are installing on a non-standard port number, prefix the
  * hostname with that number. For example,
- * https://www.drupal.org:8080/mysite/test/ could be loaded from
- * sites/8080.www.drupal.org.mysite.test/.
+ * https://www.drupal.org:8025/mysite/test/ could be loaded from
+ * sites/8025.www.drupal.org.mysite.test/.
  *
  * @see example.sites.php
  * @see \Drupal\Core\DrupalKernel::getSitePath()
@@ -339,8 +339,8 @@ $settings['update_free_access'] = FALSE;
  * You can also define an array of host names that can be accessed directly,
  * bypassing the proxy, in $settings['http_client_config']['proxy']['no'].
  */
-# $settings['http_client_config']['proxy']['http'] = 'http://proxy_user:proxy_pass@example.com:8080';
-# $settings['http_client_config']['proxy']['https'] = 'http://proxy_user:proxy_pass@example.com:8080';
+# $settings['http_client_config']['proxy']['http'] = 'http://proxy_user:proxy_pass@example.com:8025';
+# $settings['http_client_config']['proxy']['https'] = 'http://proxy_user:proxy_pass@example.com:8025';
 # $settings['http_client_config']['proxy']['no'] = ['127.0.0.1', 'localhost'];
 
 /**

@@ -35,11 +35,11 @@ services:
   web:
     extra_hosts:
     - "host.docker.internal:${hostip}"
-    # This adds 8080 on the host (bound on all interfaces)
+    # This adds 8025 on the host (bound on all interfaces)
     # It goes directly to the web container without
     # ddev-nginx
     ports:
-    - 8080:80
+    - 8025:80
 COMPOSEEND
 
 # Misc housekeeping before start
