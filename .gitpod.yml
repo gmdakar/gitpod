@@ -13,7 +13,7 @@ tasks:
     command: |
       .gitpod/setup-ddev.sh
       ddev composer install
-      gp await-port 8080 && gp preview $(gp url 8080)
+    # gp await-port 8080 && gp preview $(gp url 8080)
 
 # VScode xdebug extension
 vscode:
