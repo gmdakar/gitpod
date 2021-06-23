@@ -13,7 +13,6 @@ tasks:
     command: |
       .ddev/gitpod-setup-ddev.sh
       ddev composer install
-      gp await-port 443 && gp preview $(gp url 443)
 
 # VScode xdebug extension
 vscode:
@@ -26,8 +25,8 @@ ports:
     onOpen: ignore
     visibility: private
   # Direct-connect ddev-webserver port that is the main port
-  - port: 8037
-    #visibility: public
+  - port: 8080
+    visibility: private
   # Currently un-notified and unsupported mailhog http port
   - port: 8025
     onOpen: ignore
@@ -49,7 +48,7 @@ ports:
     onOpen: ignore
     visibility: private
   # router https port that we're ignoring.
-  - port: 443
+  - port: 8889
     onOpen: ignore
     visibility: private
   # xdebug port
