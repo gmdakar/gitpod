@@ -3,7 +3,7 @@ type: drupal9
 docroot: web
 php_version: "7.4"
 webserver_type: nginx-fpm
-router_http_port: "4069:80"
+router_http_port: "3306"
 router_https_port: "32951:443"
 xdebug_enabled: false
 additional_hostnames: []
