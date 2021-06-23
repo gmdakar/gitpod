@@ -22,7 +22,7 @@ vscode:
 
 ports:
   # Used by projector
-  - port: 5432
+  - port: 6942
     onOpen: ignore
     visibility: private
   # Direct-connect ddev-webserver port that is the main port
