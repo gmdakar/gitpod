@@ -1,5 +1,5 @@
-name: ddev-gitpod
-type: drupal9
+name: d8gitpod
+type: drupal8
 docroot: web
 php_version: "7.4"
 webserver_type: nginx-fpm
