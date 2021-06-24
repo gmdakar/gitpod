@@ -13,10 +13,6 @@ tasks:
       ddev drush si -y --site-name='d8gitpod' standard
       ddev drush -y en backup_migrate
     command: |
-    # chmod 731 .ddev/*.sh
-    # .ddev/gitpod-setup-ddev.sh
-    # ddev composer install
-    # ddev drush -y en backup_migrate
       gp await-port 8080 && gp preview $(gp url 8080)
 
 # VScode xdebug extension
