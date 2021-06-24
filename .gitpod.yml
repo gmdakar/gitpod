@@ -10,6 +10,7 @@ tasks:
       chmod 731 .ddev/*.sh
       .ddev/gitpod-setup-ddev.sh
       ddev composer install
+      ddev drush -y
     # ddev drush si -y --account-pass=admin --site-name='ddev_gitpod' demo_umami
     command: |
       chmod 731 .ddev/*.sh
