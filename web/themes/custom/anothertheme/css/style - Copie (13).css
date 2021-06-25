@@ -1,0 +1,365 @@
+@import url("fonts.css");
+@import url("foot.css");
+
+html {
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+	/* font-family: 'Roboto', Fallback, sans-serif;
+   font-family: 'Playfair Display', Fallback, sans-serif; 
+	font-family: 'Poppins', Fallback, sans-serif;
+   */
+    font-family: 'Open Sans', 'Titillium Web', 'Roboto Condensed', 'Montserrat', 'Roboto', 'Playfair Display', 'Poppins', sans-serif;
+    margin-top: 120px;
+    font-size: 1.7rem;
+    background-color: #ffffff;
+    color: #024518;
+}
+
+div.bg{
+	background:url('../images/ground.png');
+   	background-repeat: no-repeat;
+   	background-size: cover;
+   	background-position: center;	
+	position: absolute;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	
+}
+
+header.navbar-default  {
+	height: 120px;
+	background-color: #00000020;
+}
+
+header.navbar-default.opaque  {
+	height: 75px;
+	background-color: #b42828;
+}
+
+a.logo.navbar-btn img {
+    width: 75px;
+    padding:0;
+    margin: 0;
+}
+
+.region.region-navigation {
+    text-align: center;
+}
+
+.sitename a,
+.navbar-default .navbar-nav>li>a {
+    color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.sitename {
+	font-size: 1.25rem;	
+}
+
+@keyframes myanim {
+	100%{ 
+	    font-size: 1.5rem;
+	    left: 33%;
+	}
+}
+
+
+header.navbar-default.opaque ul.menu.menu--main.nav.navbar-nav {
+	position: absolute;
+    top: 0;
+    font-size: 1.5rem;
+    left: 30%;
+    animation-name: myanim;
+ 	animation-duration: 1s;
+ 	-webkit-animation-fill-mode: forwards;
+ 	animation-fill-mode: forwards;
+
+}
+
+
+
+@keyframes myanim0{
+	100%{ 
+	    color: transparent;
+	}
+}
+
+header.navbar-default.opaque .sitename a,
+header.navbar-default.opaque .navbar-text{
+	display: none;
+	/* animation-name: myanim0;
+	 	animation-duration: 0.5s;
+	 	-webkit-animation-fill-mode: forwards;
+	 	animation-fill-mode: forwards; */
+}
+
+
+.navbar-text,
+.navbar-brand {
+	float: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	color:white !important;
+}
+.sitename {
+    text-align: center;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover {
+    border-bottom:#d61414 6px solid;
+     padding-bottom:5px;
+}
+
+ul.menu.menu--main.nav.navbar-nav {
+    /* background-color: darkblue; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* margin-left: 9%; */
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+
+.row.one{
+	height: calc(100vh - 120px);
+	background-color: green;
+}
+
+.row div[class*="col-"] > div {
+	padding:3rem;
+}
+
+.row.one div[class*="col-"]:first-child > div {
+	background-color: #2d5a43a1;
+	color:#ffffff;
+	margin:0 6rem;
+	margin-top: 135px;
+}
+
+/* .row.one div[class*="col-"]:last-child > div {
+	background-color: #e15228c6;
+	color:#ffffff;
+	margin:0 6rem;
+}
+ */
+.row.two{
+	text-align: center;
+	background-color: #ffffff;
+	margin:20px 100px;
+}
+
+.row.two article {
+	background-color: rgba(0,0,0, 0.8);
+	border-radius: 8px;
+	box-shadow: 0 0 8px rgba(0,0,0, 0.5);
+	transition: box-shadow 0.3s, ;
+}
+
+.row.two article:hover {
+	box-shadow: 0 0 8px rgba(0,0,0, 0.8);
+}
+
+.row.two article:hover .head{
+	height: 150px;
+	overflow: hidden;
+}
+
+.row.two .titre {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 3.5rem;
+	border-top: 5px solid #e74c3c;
+	width: 30%;
+	margin:15px auto;
+	color:#27ae60;
+}
+
+
+.row.two article .head{
+	transition: height 0.3s;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	background-color:black;
+	border-radius: 8px;
+}
+
+.row.two article .head img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: auto;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	transition: height 0.3s, opacity 0.3s, ;
+}
+
+.row.two article:hover .head img{
+	opacity: 0.3;
+}
+
+
+.row.two article .descr{
+	line-height: 2;
+	color:#e67e22;
+	font-size: 2.8rem;
+	text-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.row.two article:hover .descr{
+	line-height: 2.2;
+	font-size: 2.2rem;
+	text-shadow: none;
+}
+
+.row.two article .body{
+	line-height: 2;
+	margin: 20px;
+	padding:0 15px;
+	height: 100px;
+	overflow: hidden;
+	color: #fff;
+	transition: height 0.3s;
+}
+
+.row.two article .body::after{
+	content: "...";
+	position: absolute;
+	bottom: 20px;
+	right: 40px;
+	padding-left: 5px;
+}
+
+.row.two article:hover .body{
+	line-height: 1.8;
+	margin: 20px;
+	color: #fff;
+	font-size: 1.5rem;
+	height: 207px;
+}
+
+.row.two article:hover .body::after{
+	content: "";
+	position: relative;
+}
+
+
+
+.row.three{
+	background-color: grey;
+	color:#ffffff;
+	padding-top: 20px;
+}
+
+
+/* Tiny - extra small Devices: Phones */
+@media (max-width: 767px) {
+
+	.navbar-default .navbar-nav>li>a:hover {
+	    border-bottom: none;
+	}
+
+
+	header.navbar-default.opaque ul.menu.menu--main.nav.navbar-nav,
+	ul.menu.menu--main.nav.navbar-nav {
+    	position: static;
+	}
+
+	header.navbar-default.opaque .navbar-toggle {
+	    position: fixed;
+	    top: 0;
+	    text-align: right;
+	    text-align: right;
+	    right: 5px;
+	}
+	
+	header.navbar-default {
+		height: inherit;
+	}
+
+	.navbar-collapse {
+	    background-color: #b42828;
+	}
+
+/* 	.row.one div[class*="col-"]:last-child  > div,
+	 */	.row.one div[class*="col-"]:first-child > div {
+    font-size: 1.2rem;
+    margin: 15px 2px;
+    padding: 5px;
+    margin-top: 81px;
+   }
+
+	:root {
+    	--size: 16px;
+	}
+
+	.ball {
+	    position: absolute;
+	    bottom: 460px;
+	    left: 0px;
+	}
+
+	.foot::after {
+	    content: "";
+	    position: absolute;
+	    bottom: 300px;
+	    right: 10px;
+	    height: 260px;
+	    width: 250px;
+	}
+	
+}
+/* Small Devices: Tablets */
+@media (min-width: 768px) and (max-width: 992px) {
+	ul.menu.menu--main.nav.navbar-nav {
+    	padding:0 1px;
+ 		margin:0 1px;
+ 		font-size: 1.2rem;
+        color:white;
+	}	
+
+
+	.row.one{
+		padding-top: 250px;
+	}
+	
+
+/* 	.row.one div[class*="col-"]:last-child  > div,
+	 */	.row.one div[class*="col-"]:first-child  > div {
+		font-size: 1.6rem;
+		margin:10px 2px; 
+		padding:15px;
+	}
+
+	@keyframes myanim {
+	100%{ 
+	    font-size: 1.4rem;
+	    left: 20%;
+	}
+}
+	
+	
+}
+
+/* Medium Devices: Desktops */
+@media (min-width: 993px) and (max-width: 1199px) {
+
+}
+
+/* Large Devices: Large Desktops */
+@media (min-width: 1200px) {
+
+}

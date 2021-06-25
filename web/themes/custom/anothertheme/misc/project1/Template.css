@@ -1,0 +1,925 @@
+/* Template */
+
+position: relative;
+width: 960px;
+height: 1132px;
+
+background: #ECF0F1;
+
+
+/* Main menu */
+
+position: absolute;
+width: 960px;
+height: 63px;
+left: -1px;
+top: 60px;
+
+
+
+/* Rectanglemenu */
+
+position: absolute;
+width: 960px;
+height: 63px;
+left: -1px;
+top: 60px;
+
+background: #F1C40F;
+
+
+/* Accueil */
+
+position: absolute;
+width: 105px;
+height: 25px;
+left: 105px;
+top: 79px;
+
+
+
+/* Accueil */
+
+position: absolute;
+width: 99px;
+height: 22px;
+left: calc(50% - 99px/2 - 319.5px);
+top: calc(50% - 22px/2 - 476px);
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+
+
+
+/* outline-home-24px 2 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 105px;
+top: 80px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 12.5%;
+bottom: 16.67%;
+
+background: #E74C3C;
+
+
+/* Conseils */
+
+position: absolute;
+width: 104px;
+height: 23px;
+left: 357px;
+top: 78px;
+
+
+
+/* Conseils */
+
+position: absolute;
+width: 99px;
+height: 22px;
+left: calc(50% - 99px/2 - 68.5px);
+top: calc(50% - 22px/2 - 477px);
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.19%;
+right: 60.94%;
+top: 7.16%;
+bottom: 91.08%;
+
+background: #E74C3C;
+
+
+/* Visa */
+
+position: absolute;
+width: 99px;
+height: 22px;
+left: 234px;
+top: 79px;
+
+
+
+/* Visa */
+
+position: absolute;
+width: 99px;
+height: 22px;
+left: calc(50% - 99px/2 - 196.5px);
+top: calc(50% - 22px/2 - 476px);
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 22px;
+height: 20px;
+left: calc(50% - 22px/2 - 228px);
+top: calc(50% - 20px/2 - 475px);
+
+background: #E74C3C;
+
+
+/* Se preparer */
+
+position: absolute;
+width: 121px;
+height: 22px;
+left: 485px;
+top: 79px;
+
+
+
+/* Se préparer */
+
+position: absolute;
+width: 99px;
+height: 22px;
+left: calc(50% - 99px/2 + 76.5px);
+top: calc(50% - 22px/2 - 476px);
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 50.52%;
+right: 47.4%;
+top: 7.07%;
+bottom: 91.25%;
+
+background: #E74C3C;
+
+
+/* Infos utiles */
+
+position: absolute;
+width: 115px;
+height: 22px;
+left: 630px;
+top: 79px;
+
+
+
+/* Infos utiles */
+
+position: absolute;
+width: 99px;
+height: 22px;
+left: calc(50% - 99px/2 + 215.5px);
+top: calc(50% - 22px/2 - 476px);
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 65.62%;
+right: 32.29%;
+top: 6.98%;
+bottom: 91.08%;
+
+background: #E74C3C;
+
+
+/* Contact */
+
+position: absolute;
+width: 105px;
+height: 22px;
+left: 769px;
+top: 78px;
+
+
+
+/* Contact */
+
+position: absolute;
+width: 99px;
+height: 22px;
+left: calc(50% - 99px/2 + 344.5px);
+top: calc(50% - 22px/2 - 477px);
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 80.1%;
+right: 17.81%;
+top: 7.07%;
+bottom: 91.17%;
+
+background: #E74C3C;
+
+
+/* Header */
+
+position: absolute;
+width: 57px;
+height: 48px;
+left: 452px;
+top: 56px;
+
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Rectangle_head */
+
+position: absolute;
+width: 960px;
+height: 65px;
+left: -452px;
+top: -8px;
+
+background: #2ECC71;
+
+
+/* Logo */
+
+position: absolute;
+left: 0%;
+right: 0.33%;
+top: 0.8%;
+bottom: 0.8%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0.33%;
+top: 0.8%;
+bottom: 0.8%;
+
+background: #E0474C;
+
+
+/* Vector */
+
+position: absolute;
+left: 28.67%;
+right: 58.71%;
+top: 34%;
+bottom: 34%;
+
+background: #E0474C;
+
+
+/* Vector */
+
+position: absolute;
+left: 41%;
+right: 45.06%;
+top: 34.2%;
+bottom: 34.05%;
+
+background: #E0474C;
+
+
+/* Vector */
+
+position: absolute;
+left: 58.37%;
+right: 28.71%;
+top: 34.2%;
+bottom: 34.05%;
+
+background: #E0474C;
+
+
+/* Row2 */
+
+position: absolute;
+width: 959px;
+height: 300px;
+left: 0px;
+top: 523px;
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* RectangleRow2 */
+
+position: absolute;
+width: 959px;
+height: 300px;
+left: 0px;
+top: 523px;
+
+background: #FFFFE8;
+
+
+/* La plage */
+
+position: absolute;
+width: 200px;
+height: 220px;
+left: 93px;
+top: 570px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 200px;
+height: 220px;
+left: 93px;
+top: 570px;
+
+background: #9E0000;
+
+
+/* Vector */
+
+position: absolute;
+left: 17.5%;
+right: 77.29%;
+top: 52.74%;
+bottom: 42.84%;
+
+background: #C1C19B;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. */
+
+position: absolute;
+width: 159px;
+height: 76px;
+left: 114px;
+bottom: 363px;
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* La Plage */
+
+position: absolute;
+width: 79px;
+height: 28px;
+left: 154px;
+top: 654px;
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #C1C19B;
+
+
+
+/* Le soleil */
+
+position: absolute;
+width: 200px;
+height: 220px;
+left: 380px;
+top: 566px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 200px;
+height: 220px;
+left: 380px;
+top: 566px;
+
+background: #9E0000;
+
+
+/* Le soleil */
+
+position: absolute;
+width: 71px;
+height: 22px;
+left: 445px;
+top: 650px;
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #F1C40F;
+
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. */
+
+position: absolute;
+width: 159px;
+height: 76px;
+left: 401px;
+bottom: 371px;
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 47.5%;
+right: 47.29%;
+top: 52.47%;
+bottom: 43.11%;
+
+background: #F1C40F;
+
+
+/* La mer */
+
+position: absolute;
+width: 200px;
+height: 220px;
+left: 667px;
+top: 570px;
+
+
+
+/* Rectangle */
+
+position: absolute;
+width: 200px;
+height: 220px;
+left: 667px;
+top: 570px;
+
+background: #9E0000;
+
+
+/* La mer */
+
+position: absolute;
+width: 61px;
+height: 28px;
+left: 741px;
+top: 654px;
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2B96D1;
+
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. */
+
+position: absolute;
+width: 159px;
+height: 76px;
+left: 692px;
+bottom: 363px;
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 77.29%;
+right: 17.5%;
+top: 52.83%;
+bottom: 42.76%;
+
+background: #2B96D1;
+
+
+/* Line */
+
+position: absolute;
+width: 263px;
+height: 0px;
+left: 337px;
+top: 536px;
+
+border: 1px solid rgba(123, 104, 104, 0.32);
+transform: rotate(90.24deg);
+
+
+/* Line */
+
+position: absolute;
+width: 263px;
+height: 0px;
+left: 624px;
+top: 538px;
+
+border: 1px solid rgba(123, 104, 104, 0.32);
+transform: rotate(90.24deg);
+
+
+/* Login */
+
+position: absolute;
+width: 59px;
+height: 20px;
+left: 876px;
+top: 21px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 91.25%;
+right: 6.67%;
+top: 1.86%;
+bottom: 96.38%;
+
+background: #000000;
+
+
+/* Login */
+
+position: absolute;
+width: 35px;
+height: 16px;
+left: 900px;
+top: 22px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #E74C3C;
+
+
+
+/* Row1 */
+
+position: absolute;
+width: 990px;
+height: 400px;
+left: -31px;
+top: 123px;
+
+background: rgba(149, 76, 76, 0.35);
+
+
+/* 58622743_886264875038302_3037024374898032640_o */
+
+position: absolute;
+width: 1025px;
+height: 1189px;
+left: calc(50% - 1025px/2 + 45.5px);
+top: calc(50% - 1189px/2 + 394.5px);
+
+background: url(58622743_886264875038302_3037024374898032640_o.jpg);
+
+
+/* RectangleRow1 */
+
+position: absolute;
+width: 958px;
+height: 401px;
+left: 32px;
+top: -1px;
+
+background: rgba(12, 124, 255, 0.18);
+
+
+/* Row1zonesenteranga */
+
+position: absolute;
+width: 348px;
+height: 258px;
+left: 642px;
+top: 71px;
+
+
+
+/* RectRow1zonesenteranga */
+
+position: absolute;
+width: 348px;
+height: 258px;
+left: 642px;
+top: 71px;
+
+background: rgba(51, 50, 57, 0.41);
+
+
+/* au Senegal */
+
+position: absolute;
+width: 238px;
+height: 70px;
+left: 697px;
+top: 130px;
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Le pays de la téranga */
+
+position: absolute;
+width: 333px;
+height: 60px;
+left: 649px;
+top: 200px;
+
+font-family: Rock Salt;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 60px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #20AB1D;
+
+border: 1px solid #FFFFFF;
+
+
+/* Bienvenue au Lodge Les berges du lac */
+
+position: absolute;
+width: 429px;
+height: 160px;
+left: 13px;
+top: 245.06px;
+
+font-family: Redressed;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+transform: rotate(-14.18deg);
+
+
+/* Row3 */
+
+position: absolute;
+width: 959px;
+height: 263px;
+left: 0px;
+top: 823px;
+
+
+
+/* Rectanglerow3 */
+
+position: absolute;
+width: 959px;
+height: 263px;
+left: 0px;
+top: 823px;
+
+background: #FFEFAE;
+
+
+/* 58461806_886265038371619_2111347279230140416_o */
+
+position: absolute;
+width: 170.08px;
+height: 115.28px;
+left: 215px;
+top: 895px;
+
+background: url(58461806_886265038371619_2111347279230140416_o.jpg);
+transform: rotate(-24.26deg);
+
+
+/* 58442735_886264808371642_7093089324853362688_o */
+
+position: absolute;
+width: 168.57px;
+height: 111.21px;
+left: 583.54px;
+top: 832px;
+
+background: url(58442735_886264808371642_7093089324853362688_o.jpg);
+transform: rotate(16.47deg);
+
+
+/* 58761619_886264998371623_6935746887341309952_o */
+
+position: absolute;
+width: 174.66px;
+height: 117.48px;
+left: 750.1px;
+top: 972.07px;
+
+background: url(58761619_886264998371623_6935746887341309952_o.jpg);
+transform: rotate(-26.34deg);
+
+
+/* 58384038_885171878480935_2955903248814309376_o */
+
+position: absolute;
+width: 161.83px;
+height: 104.5px;
+left: 401px;
+top: 980.2px;
+
+background: url(58384038_885171878480935_2955903248814309376_o.jpg);
+transform: rotate(-7.17deg);
+
+
+/* 58381274_886264951704961_1122941254196264960_o */
+
+position: absolute;
+width: 174.95px;
+height: 121.09px;
+left: 46.38px;
+top: 915px;
+
+background: url(58381274_886264951704961_1122941254196264960_o.jpg);
+transform: rotate(16deg);
+
+
+/* Footer */
+
+position: absolute;
+width: 959px;
+height: 46px;
+left: 0px;
+top: 1086px;
+
+
+
+/* Rectanglefooter */
+
+position: absolute;
+width: 959px;
+height: 46px;
+left: 0px;
+top: 1086px;
+
+background: #9E0000;
+
+
+/* Agence nationale de tourisme / 2019 */
+
+position: absolute;
+width: 250px;
+height: 24px;
+left: 343px;
+top: 1103px;
+
+font-family: Titillium Web;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+

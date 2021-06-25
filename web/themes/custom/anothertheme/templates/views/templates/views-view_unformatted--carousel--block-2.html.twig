@@ -1,0 +1,54 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ *
+ * @ingroup themeable
+ */
+#}
+
+{% if rows -%}
+  <ul class="list-group">
+{% endif %}
+
+{% set nb_cpt = 0 %}
+ 
+  {% for row in rows %}
+    {%
+      set row_classes = [
+        default_row_class ? 'views-row',
+      ]
+    %}
+
+    {% set is_active_class = '' %}
+
+     {% if loop.first %}
+       {% set is_active_class = 'active' %}
+     {% endif %}
+
+     {% if row.content -%}
+
+       {{- row.content|render|replace({'%nb_cpt%': nb_cpt, '%is_active_class%': is_active_class})|raw -}}
+
+       {% set nb_cpt = nb_cpt + 1 %}
+        
+     {% endif %}
+
+    {% endfor %}
+
+{% if rows -%}
+  </ul>
+{% endif %}
+ 
+

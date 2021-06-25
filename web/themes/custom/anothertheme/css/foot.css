@@ -1,0 +1,143 @@
+.foot {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:center;
+  height:calc(100vh - 120px);
+  position: relative;
+}
+
+.foot::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: 210px;
+  background-image: url('../images/kick.png');
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  height: 420px;
+  width: 350px;
+}
+
+:root {
+  --size: 25px;
+}
+
+
+.right {
+  height: calc(var(--size) * 2);
+  width: var(--size);
+}
+
+.right {
+  border-bottom-right-radius: calc(var(--size) * 2);
+  border-top-right-radius: calc(var(--size) * 2);
+}
+
+.rotate {
+  animation: 1s linear infinite rotate;
+  position: relative;
+  top: var(--size) * -1;
+  transform-origin: 50% 100%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+.ball {
+  position: absolute;
+  bottom: 150px;
+  left: 0px;
+  background-image: url('../images/ball4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  animation-name:ball-bounce;
+  animation-iteration-count:1;
+  animation-duration:2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  animation-timing-function:cubic-bezier(0.5, 0.5, 0.5, 0.5);
+}
+
+#ball1 {
+  background-color: white;
+  animation-delay:0.5s;
+ }
+
+
+@keyframes ball-bounce {
+  0% { transform:translate(0px,0px);}
+  10% {
+      height: calc(var(--size) * 2);
+      width: calc(var(--size) * 2);
+      transform:translate(30px, 150px); 
+      border-bottom-right-radius: none;
+      border-top-right-radius: none;
+      border-radius:100%;
+    }
+  
+  25% {
+      height: calc(var(--size) * 2);
+      width: calc(var(--size) * 2);
+      transform:translate(60px, 80px);
+      border-bottom-right-radius: none;
+      border-top-right-radius: none;
+      border-radius:100%;
+    }
+
+   45% {
+      height: calc(var(--size) * 2);
+      width: calc(var(--size) * 2);
+      transform:translate(105px,150px);
+      border-bottom-right-radius: none;
+      border-top-right-radius: none;
+      border-radius:100%;
+    }
+
+    63% {
+      height: calc(var(--size) * 2);
+      width: calc(var(--size) * 2);
+      transform:translate(125px,120px);
+      border-bottom-right-radius: none;
+      border-top-right-radius: none;
+      border-radius:100%;
+    }
+
+
+    80% {
+      height: calc(var(--size) * 2);
+      width: calc(var(--size) * 2);
+      transform:translate(145px,150px);
+      border-bottom-right-radius: none;
+      border-top-right-radius: none;
+      border-radius:100%;
+    }
+
+    85% {
+      height: calc(var(--size) * 2);
+      width: calc(var(--size) * 2);
+      transform:translate(158px,145px);
+      border-bottom-right-radius: none;
+      border-top-right-radius: none;
+      border-radius:100%;
+    }
+
+    100% {
+      height: calc(var(--size) * 2);
+      width: calc(var(--size) * 2);
+      transform:translate(185px,150px);
+      border-bottom-right-radius: none;
+      border-top-right-radius: none;
+      border-radius:100%;
+    }
+
+}
+

@@ -10,8 +10,7 @@ tasks:
       chmod 731 .ddev/*.sh
       .ddev/gitpod-setup-ddev.sh
       ddev composer install
-      ddev drush si -y --site-name='d8gitpod' standard
-      ddev drush -y en backup_migrate
+      ddev drush sql-cli < dump/dump_dp.sql
     command: |
       gp await-port 8080 && gp preview $(gp url 8080)
 

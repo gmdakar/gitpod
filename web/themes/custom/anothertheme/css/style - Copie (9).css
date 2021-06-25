@@ -1,0 +1,303 @@
+@import url("fonts.css");
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+  /* font-family: 'Roboto', Fallback, sans-serif;
+   font-family: 'Playfair Display', Fallback, sans-serif; */
+    font-family: 'Lato', Fallback, sans-serif;
+   background-color: beige;
+}
+
+
+body { padding-top: 50px; }
+
+.navbar-default {
+	background: url("../images/bg8.jpg");
+	background-position: center;
+	background-size: cover;
+	box-shadow: 10px 10px 5px grey;
+    background-color: #5f799a;
+    border-color: black;
+    margin-bottom: 4rem;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2.2rem;
+    padding:5px 2.5rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding:5px 3.3rem;
+    background-color: white;
+    margin:8px; 
+    color:#b91010;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/* @keyframes blink {
+to { color: red;}
+}
+
+.navbar-default .navbar-nav>li>a {
+	animation: blink 5s steps(2, start) infinite;
+} */
+
+@keyframes myanim {
+0%{ margin-top: -20px;}
+100%{ margin-top: 0px;}
+}
+
+.region-carousel section .tb::before,
+.region-carousel section .tb > h2 {
+	animation-name: myanim;
+ 	animation-duration: 5s;
+}
+
+
+.menu.menu--main.navbar-nav {
+	margin-left:15rem;
+	padding:5px 2.5rem;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    padding:5px 3.3rem;
+    background-color: white;
+    color:red;
+}
+
+
+.name.navbar-brand>li>a:hover {
+    color: white;
+    padding:5px 3rem;
+}
+
+a.logo.navbar-btn.pull-left img {
+    width: 90px;
+}
+
+/* ul.col-sm-4.list-group {
+    padding: 0;
+} */
+
+.region-carousel section .tb::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 5px;
+    margin: 0 auto;
+    z-index: 5;
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 21px solid #ff0000cf;
+    border-left: 10px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.region-carousel section .tb,
+.region-carousel-titles section .tb {
+	position: relative;
+	background-color: yellow;
+}
+
+.region-carousel section .tb > h2, .region-carousel-titles section .tb > h2 {
+    background-color: #d90505;
+    color: white;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width:140px;
+    position: absolute;
+    top:-20px;
+    left: 15PX;
+    margin:0 auto;
+	z-index: 1;
+	text-transform: uppercase;
+}
+
+.region-carousel-titles section .tb > h2 {
+	/* visibility: hidden; */
+	color: transparent;	
+	background-color: transparent;
+}
+
+
+#myCarousel .carousel-caption {
+    left:0;
+	right:0;
+	bottom:0;
+	text-align:left;
+	padding:10px;
+	background:rgba(0,0,0,0.6);
+	text-shadow:none;
+}
+
+#myCarousel .region-carousel-titles {
+	position:absolute;
+	top:0;
+	right:0;
+	 padding: 0;
+}
+#myCarousel .list-group-item {
+	border-radius:0px;
+	cursor:pointer;
+}
+#myCarousel .list-group .active {
+	background-color: #e10909;
+}
+
+#myCarousel .list-group li {
+	padding-top:14px;	
+}
+
+#myCarousel .list-group li h4{
+	font-size: 1.4rem;
+}
+
+
+#myCarousel .list-group li.active {
+	padding-left:2rem;
+	padding-top:18px;	
+}
+
+#myCarousel .list-group li:not(.active):hover{
+	padding-left:2rem;
+	background-color: #f7f1f1;
+}
+
+#myCarousel .list-group li.active:hover{
+	padding-left:2rem;
+	background-color: #f7f1f1;
+	color:inherit;
+}
+
+
+.carousel-inner, .list-group {
+    border: 1px solid grey;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+#myCarousel .list-group li.active::before {
+   content:"\e250";
+    position: absolute;
+    top:  32%;
+    left: -5px;
+    margin-right: 1.8rem;
+    font-family: 'Glyphicons Halflings';
+	font-size: 1.8rem;
+	color: black;
+}
+
+@keyframes otheranim {
+0%{ margin-top: -20px;}
+100%{ margin-top: 0px;}
+}
+.row.two section .tb {
+    animation-name: otheranim;
+ 	animation-duration: 5s;
+}
+
+.row.two section .tb {
+    background-color: #3ba2b2fc;
+    text-align: center;
+}
+
+.row.two section .tb h2 {
+    background: white;
+    color: #0ab5d5;
+    width: 20rem;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding:2px 5px;
+}
+
+.mb h5.card-title {
+    height: 25px;
+    color: #2599a8;
+    font-size: 1.6rem;
+}
+
+.mb.card-body {
+    text-align: center;
+    padding: 1.25rem;
+    font-size: 1.5rem;
+    color: #425c79;
+}
+
+.mb.btn{
+    border-radius: 0;
+    box-shadow: 0.5px 1px 2px hsla(0, 0%, 20%, 1);
+}
+.mb.btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 5px hsla(0, 0%, 20%, 1);
+}
+
+.mb.card {
+    border-radius: 0px / 0px;
+    overflow: hidden;
+    box-shadow: 0.5px 1px 2px hsla(0, 0%, 20%, 1);
+    text-align: center;
+    margin: 10px auto;
+    background-color: #0072ff0d;
+}
+
+.row.two{
+    margin-top:15px;
+}
+
+.row.two .mb.card img{
+    display: inline;
+    width: 100%;
+}
+
+.row.two .mb.card .btn{
+    padding: 3px 3.5rem;
+}
+
+
+@media (min-width: 992px) { 
+	#myCarousel {padding-right:33.3333%;}
+	#myCarousel .carousel-controls {display:none;} 	
+}
+@media (max-width: 991px) { 
+	.carousel-caption p,
+	#myCarousel .list-group {display:none;} 
+}
+
+
+/* Tiny Devices: Phones */
+@media (max-width: 767px) {
+
+ #myCarousel .region-carousel-titles {
+		display: none;
+	}
+	
+}
+/* Small Devices: Tablets */
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/* Medium Devices: Desktops */
+@media (min-width: 993px) and (max-width: 1199px) {
+
+}
+
+/* Large Devices: Large Desktops */
+@media (min-width: 1200px) {
+
+}

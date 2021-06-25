@@ -1,0 +1,580 @@
+/* Desktop */
+
+position: relative;
+width: 1440px;
+height: 1968px;
+
+background: #FFFFFF;
+
+
+/* canevas */
+
+position: absolute;
+width: 1216px;
+height: 1968px;
+left: 104px;
+top: 0px;
+
+background: #939393;
+
+
+/* bg */
+
+position: absolute;
+width: 1207px;
+height: 1812px;
+left: 107px;
+top: 100px;
+
+background: url(beautiful-black-top-casual-1586485.jpg);
+mix-blend-mode: normal;
+
+
+/* Copyright / Orange 2019 */
+
+position: absolute;
+width: 171px;
+height: 24px;
+left: 615px;
+top: 1926px;
+
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Head */
+
+position: absolute;
+width: 1214px;
+height: 100px;
+left: 107px;
+top: 0px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 1214px;
+height: 100px;
+left: 107px;
+top: 0px;
+
+background: #1E1B19;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+
+/* orange_logo */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 147px;
+top: 26px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FF7900;
+
+
+/* Group */
+
+position: absolute;
+left: 5.43%;
+right: 3.81%;
+top: 72.34%;
+bottom: 3.04%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 5.43%;
+right: 3.81%;
+top: 72.34%;
+bottom: 3.04%;
+
+background: #FFFFFF;
+
+
+/* Menu */
+
+position: absolute;
+width: 983px;
+height: 77px;
+left: 317px;
+top: 12px;
+
+
+
+/* Nous contacter */
+
+position: absolute;
+width: 138px;
+height: 23px;
+left: 1162px;
+top: 34px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+
+
+/* Services */
+
+position: absolute;
+width: 78px;
+height: 23px;
+left: 659px;
+top: 66px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+
+
+/* Nos offres */
+
+position: absolute;
+width: 95px;
+height: 23px;
+left: 478px;
+top: 12px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+
+
+/* Partenariat */
+
+position: absolute;
+width: 101px;
+height: 23px;
+left: 802px;
+top: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+
+
+/* Nous rejoindre */
+
+position: absolute;
+width: 133px;
+height: 23px;
+left: 963px;
+top: 66px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+
+
+/* Accueil */
+
+position: absolute;
+width: 67px;
+height: 23px;
+left: 317px;
+top: 41px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #FF7900;
+
+border: 1px solid #000000;
+
+
+/* Zone1 */
+
+position: absolute;
+width: 1103px;
+height: 548px;
+left: 160px;
+top: 158px;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 1103px;
+height: 548px;
+left: 160px;
+top: 158px;
+
+background: rgba(0, 0, 0, 0.31);
+
+
+/* Dernières PROMOTIONS */
+
+position: absolute;
+width: 322px;
+height: 109px;
+left: 274px;
+top: 227px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+
+color: #FF7900;
+
+
+
+/* blur-cellphone-cellular-telephone-270283 */
+
+position: absolute;
+width: 430px;
+height: 456px;
+left: 801.71px;
+top: 174px;
+
+background: url(blur-cellphone-cellular-telephone-270283.jpg);
+border-radius: 15px;
+transform: rotate(5.5deg);
+
+
+/* * Le parent peut souscrire jusqu’à 3 lignes. * L’enfant doit être sur la formule New S’cool. * La souscription à l’offre est gratuite. */
+
+position: absolute;
+width: 502px;
+height: 277px;
+left: 198px;
+top: 365px;
+
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Zone2 */
+
+position: absolute;
+width: 1094px;
+height: 557px;
+left: 167px;
+top: 755px;
+
+
+
+/* Zone2sgrp2 */
+
+position: absolute;
+width: 523px;
+height: 557px;
+left: 738px;
+top: 755px;
+
+
+
+/* Rectangle 4.1 */
+
+position: absolute;
+width: 523px;
+height: 557px;
+left: 738px;
+top: 755px;
+
+background: rgba(0, 0, 0, 0.15);
+
+
+/* Forfaits Internet */
+
+position: absolute;
+width: 177px;
+height: 109px;
+left: 915px;
+top: 876px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+
+color: #FF7900;
+
+
+
+/* * Jusqu'à 150% de bonus par mois. * Forfait internet jusqu’à 10 Go */
+
+position: absolute;
+width: 405px;
+height: 232px;
+left: 805px;
+top: 1025px;
+
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 46px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Zone2sgrp1 */
+
+position: absolute;
+width: 508px;
+height: 557px;
+left: 167px;
+top: 755px;
+
+
+
+/* adult-coffee-connection-1181248 */
+
+position: absolute;
+width: 447px;
+height: 508px;
+left: 198px;
+top: 782px;
+
+background: url(adult-coffee-connection-1181248.jpg);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 508px;
+height: 557px;
+left: 167px;
+top: 755px;
+
+background: rgba(0, 0, 0, 0.15);
+
+
+/* Zone3 */
+
+position: absolute;
+width: 1091px;
+height: 474px;
+left: 167px;
+top: 1364px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 1091px;
+height: 474px;
+left: 167px;
+top: 1364px;
+
+background: rgba(0, 0, 0, 0.31);
+
+
+/* Zone3sgrp1 */
+
+position: absolute;
+width: 312px;
+height: 360px;
+left: 220px;
+top: 1421px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 312px;
+height: 360px;
+left: 220px;
+top: 1421px;
+
+background: #FF7900;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.64%;
+right: 70.42%;
+top: 74.85%;
+bottom: 19.56%;
+
+background: #000000;
+
+
+/* Jusqu'à 150% de bonus par mois */
+
+position: absolute;
+width: 229px;
+height: 147px;
+left: 272px;
+top: 1634px;
+
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Zone3sgrp2 */
+
+position: absolute;
+width: 312px;
+height: 360px;
+left: 564px;
+top: 1421px;
+
+
+
+/* Rectangle 6.1 */
+
+position: absolute;
+width: 312px;
+height: 360px;
+left: 564px;
+top: 1421px;
+
+background: #FF7900;
+
+
+/* Forfait internet jusqu’à 10 Go */
+
+position: absolute;
+width: 212px;
+height: 92px;
+left: 623px;
+top: 1636px;
+
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 46px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 46.88%;
+right: 46.18%;
+top: 75.36%;
+bottom: 19.56%;
+
+background: #000000;
+
+
+/* Zone3sgrp3 */
+
+position: absolute;
+width: 312px;
+height: 360px;
+left: 908px;
+top: 1421px;
+
+
+
+/* Rectangle 6.2 */
+
+position: absolute;
+width: 312px;
+height: 360px;
+left: 908px;
+top: 1421px;
+
+background: #FF7900;
+
+
+/* Jusqu'à 150% de bonus par mois */
+
+position: absolute;
+width: 229px;
+height: 147px;
+left: 960px;
+top: 1633px;
+
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFCFC;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 70.42%;
+right: 22.64%;
+top: 75.1%;
+bottom: 19.82%;
+
+background: #000000;

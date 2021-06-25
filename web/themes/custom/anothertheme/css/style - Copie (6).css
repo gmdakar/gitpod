@@ -1,0 +1,263 @@
+0/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Norican';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Norican Regular'), local('Norican-Regular'), url(https://fonts.gstatic.com/s/norican/v7/MwQ2bhXp1eSBqjkPKJVbtQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+	margin:0;
+}
+
+body {
+	font-family: 'Roboto', Arial, Fallback, sans-serif;
+}
+
+header.navbar-default {
+	background-color: transparent;
+}
+
+header .logo {
+	background-image: url('../images/logo.png');
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;	
+} 
+
+header .menu--main {
+	margin-top: 25px;
+	float: right;	
+}
+
+
+.navbar-default .navbar-nav>li>a {
+	/* color:orange; */
+	font-size: 1.8rem;
+	margin: 0 1.3rem;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a.is-active, 
+.navbar-default .navbar-nav>li>a:hover {
+	color: #F2593B;
+}
+
+.navbar-default .navbar-nav>li>a::before {
+	content: "|";
+	color: black;
+	font-size: 2.6rem;
+	margin-right: 0.4rem;
+	float: left;
+	font-weight: bold;
+	color: #5FB8A4;
+}
+
+.navbar-default .navbar-nav>li>a:active::before,
+.navbar-default .navbar-nav>li>a.is-active::before, 
+.navbar-default .navbar-nav>li>a:hover::before {
+	content: "|";
+	color: #F2593B;
+	margin-right: 0.4rem;
+	font-size: 2.6rem;
+	float: left;
+	font-weight: bold;
+}
+
+.navbar {
+    margin-bottom:0px; 
+    border:none; 
+}
+
+.main-container{
+	background-color: yellow;
+}
+
+.row .left {
+    background-color: #cf3b0b;
+    height: 70vh;
+    position: relative;
+    text-align: center;
+    border: 0.5px solid black;
+}
+
+.row.one .left::before {
+	position: absolute;
+	left:0;
+	right: 0;
+	margin: 0 auto;
+	top:0px;
+	content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid #5FB8A4;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.row .left .text {
+    margin: 1rem 2rem;
+    text-align: center;
+    font-size: 2.3rem;
+    color: white;
+    line-height: 2;
+    position: absolute;
+    top:15%;
+    left:0;
+
+}
+
+
+.row .right {
+	position: relative;
+	background-color: green; 
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    border-radius: 100px 100px 0 0;
+ }
+
+.row .right .tp{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: red; 
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 50vh;
+    border-radius: 100px 100px 0 0;
+ }
+
+ .row .right .video video{
+	position: absolute;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	
+	
+}
+
+.row .right .video video{
+	position: absolute;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+    width: 45vh;
+}
+
+
+
+.row .right .centrer {
+	position: absolute;
+	top:40%;
+	z-index: 1000;
+	left:0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.row .right .centrer span {
+	font-size: 3rem;
+	color:rgba(255,255,255, 0.85);
+	display: block;
+	margin-bottom: 2rem;
+}
+
+.row .right .centrer button{
+	background-color: rgba(255, 69, 0, 0.2);
+	color:white;
+	
+}
+
+.row .right .centrer button.one{
+	background-color: #F2593B;
+	color:white;
+	border:1px #F2593B solid;
+}
+
+.row .right .centrer button.one:hover{
+	background-color: rgba(255, 69, 0, 0.2);
+	color:white;
+	font-weight: bold;
+}
+
+.row .right .centrer button.two{
+	background-color: white;
+	color:#F2593B;
+	border:1px #F2593B solid;
+}
+
+.row .right .centrer button.two:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	color:#F2593B;
+	font-weight: bold;
+}
+
+.row .right .centrer button{
+	display:inline;
+	margin:1rem;
+	width:120px;
+	font-size: 2rem;
+	text-align: center;
+}
+
+footer {
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+
+/* Tiny Devices: Phones */
+@media (max-width: 767px) {
+
+    header .menu--main ul li{
+	 display: inline-block;
+	 
+	}
+
+	.navbar-default .navbar-nav>li>a {
+		margin: 0 1rem;
+	}
+	
+	.row .left .text {
+	    top:1%;
+	    line-height: 1.6;
+	    font-size: 2.2rem;
+	}
+  
+}
+/* Small Devices: Tablets */
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/* Medium Devices: Desktops */
+@media (min-width: 993px) and (max-width: 1199px) {
+
+}
+
+/* Large Devices: Large Desktops */
+@media (min-width: 1200px) {
+
+}

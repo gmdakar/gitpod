@@ -71,7 +71,7 @@ package-lock.json
 .phplint-cache
 
 # Ignore Drupal's file directory
-web/sites/default/files
+# web/sites/default/files
 
 # Pantheon commits a settings.php for environment-specific settings.
 # Place local settings in settings.local.php
@@ -187,7 +187,7 @@ circleci/database/*
 
 # The Build #
 # Include Drupal settings files
-!/web/sites/*/settings.php
+/web/sites/*/settings.php
 !/web/sites/*/services.yml
 
 # Ignore local and generated settings files
