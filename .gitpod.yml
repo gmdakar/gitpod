@@ -10,10 +10,10 @@ tasks:
       chmod 731 .ddev/*.sh
       .ddev/gitpod-setup-ddev.sh
       ddev composer install
-      gunzip < dump/dump-file.sql.gz | ddev drush sqlc
+      gunzip < dump/dump-file.sql.gz | ddev drush -y sqlc
       tar -xvf dump/files.tar.gz -C web/sites/default/
       rm -rf dump/
-      git commit -m "remove dump" && git push
+      git add dump/ && git commit -m "remove dump" && git push
     command: |
       gp await-port 8080 && gp preview $(gp url 8080)
 
