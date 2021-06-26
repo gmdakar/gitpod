@@ -10,8 +10,10 @@ tasks:
       chmod 731 .ddev/*.sh
       .ddev/gitpod-setup-ddev.sh
       ddev composer install
-      drush sql-drop && drush sqlq --file=dump/dump-file.sql.gz
-      tar -xvf dump/files.tar.gz -C web/sites/default//
+      ddev drush sql-drop
+      ddev drush sqlq --file=dump/dump-file.sql.gz
+      tar -xvf dump/files.tar.gz -C web/sites/default/
+      rm -rf dump/
     command: |
       gp await-port 8080 && gp preview $(gp url 8080)
 
