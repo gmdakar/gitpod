@@ -148,6 +148,9 @@ web/sites/simpletest
 *.zip
 *.tgz
 
+#not ignore dump
+!dump/*
+
 # Logs and databases #
 ######################
 /logs/
