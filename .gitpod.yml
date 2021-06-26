@@ -12,8 +12,8 @@ tasks:
       ddev composer install
       gunzip < dump/dump-file.sql.gz | ddev drush -y sqlc
       tar -xvf dump/files.tar.gz -C web/sites/default/
-      rm -rf dump/
-      git add dump/*.gz && git commit -m "remove dump" && git push
+      # rm -rf dump/
+      # git add dump/*.gz && git commit -m "remove dump" && git push
     command: |
       gp await-port 8080 && gp preview $(gp url 8080)
 
