@@ -1,5 +1,5 @@
 # IF gz removed by gitpod so clean dump gz and update
-rm dump/*.gz && git pull
+#rm dump/*.gz && git pull
 
 #create sql gz
 drush cr && drush sql-dump --gzip --result-file=../dump/dump-file.sql
