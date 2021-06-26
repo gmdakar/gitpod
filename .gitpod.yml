@@ -11,7 +11,7 @@ tasks:
       .ddev/gitpod-setup-ddev.sh
       ddev composer install
       ddev drush sql-drop
-      ddev drush sqlq --file=dump/dump-file.sql.gz
+      ddev drush sqlq --file=../dump/dump-file.sql.gz
       tar -xvf dump/files.tar.gz -C web/sites/default/
       rm -rf dump/
     command: |
